@@ -1,4 +1,4 @@
-# jan-modbus-rtu
+# jan_modbus_rtu
 
 
 Read modbus arguments from 19000 address, and returns a json object.
