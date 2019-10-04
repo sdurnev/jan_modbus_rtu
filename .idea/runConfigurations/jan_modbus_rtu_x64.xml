@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="jan_modbus_rtu_x64" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <module name="jan_modbus_rtu" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <parameters value="-serial=/dev/tty.usbserial-FTDZH3PO -speed=9600 -id=10 -q=10" />
+    <envs>
+      <env name="GOOS" value="linux" />
+      <env name="GOARCH" value="amd64" />
+    </envs>
+    <kind value="FILE" />
+    <filePath value="$PROJECT_DIR$/main.go" />
+    <directory value="$PROJECT_DIR$/" />
+    <output_directory value="$PROJECT_DIR$/bin/0.01.1/linux" />
+    <option name="run" value="false" />
+    <method v="2" />
+  </configuration>
+</component>
