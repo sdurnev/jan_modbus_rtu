@@ -15,5 +15,5 @@ Programm flags:
 
 Example:
 
-build_linux_x64_linux -serial=/dev/ttyUSB0 -speed=9600 -id=2 -q=10
+`build_linux_x64_linux -serial=/dev/ttyUSB0 -speed=9600 -id=2 -q=10`
 
